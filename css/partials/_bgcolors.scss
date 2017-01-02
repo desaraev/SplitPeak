@@ -1,0 +1,91 @@
+$primarybg: #ffffff;
+$secondarybg: #f5f5f5;
+$highlightbg: #2a2d37;
+
+/*
+@tab Page
+@section background color
+@tip Set the background color for your email. You may want to choose one that matches your company's branding.
+@theme page
+*/
+body,.backgroundTable{
+	/*@editable*/background-color:#f1f1f1;
+}
+.hero-row td{
+/*@tab Page
+@section hero heading 1
+@tip Set the style for the boldest, introductory heading that accompanies the email's image.*/
+	background-color:#3c4660;
+}
+/*
+@tab Header
+@section preheader style
+@tip Set the background color for your email's preheader area.
+@theme page
+*/
+#templatePreheader{
+	/*@editable*/background-color:#f1f1f1;
+}
+/*
+@tab Header
+@section header style
+@tip Set the background color and border for your email's header area.
+@theme header
+*/
+#templateHeader{
+	/*@editable*/background-color:$primarybg;
+	/*@editable*/border-bottom:0;
+}
+/*
+@tab Body
+@section body style
+@tip Set the background color for your email's body area.
+*/
+#templateContainer,.bodyContent{
+	/*@tab Body
+@section body style
+@tip Set the background color for your email's body area.*/
+	background-color:$primarybg;
+}
+/*
+@tab Body
+@section body text
+@tip Set the styling for your email's main content text. Choose a size and color that is easy to read.
+@theme main
+*/
+.bodyContent div,.bodyContent span{
+	background-color:$primarybg !important;
+}
+/*
+@tab Body
+@section body link
+@tip Set the styling for your email's main content links. Choose a color that helps them stand out from your text.
+*/
+.bodyContent div a:link,.bodyContent div a:visited{
+	background-color:$primarybg !important;
+}
+.bodyContent div em{
+	background-color:$primarybg !important;
+}
+/*
+@tab Footer
+@section footer style
+@tip Set the background color and top border for your email's footer area.
+@theme footer
+*/
+#templateFooter{
+	/*@editable*/background-color:#FDFDFD;
+	/*@editable*/border-top:0;
+}
+tr.website{
+	background-color:#adcd00;
+}
+tr.phone{
+	background-color:#f1f2f4;
+}
+tr.email{
+	background-color:#ffffff;
+}
+tr.fine-print{
+	background-color:$highlightbg;
+}

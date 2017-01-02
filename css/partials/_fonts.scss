@@ -1,14 +1,8 @@
-/*
-@tab Page
-@section hero heading 1
-@tip Set the style for the boldest, introductory heading that accompanies the email's image.
-*/
-.hero-row td{
-/*@tab Page
-@section hero heading 1
-@tip Set the style for the boldest, introductory heading that accompanies the email's image.*/
+$primaryfont: #020209;
+$h2: #535966;
+$secondaryp: #7f828a;
+$primaryp: #000;
 
-}
 .hero-header,.hero-header h1,.hero-header .h1,.hero-header span,.hero-header div{
 	color:#f1f1f1 !important;
 	display:block;
@@ -36,7 +30,7 @@
 @theme heading2
 */
 h2,.h2{
-	/*@editable*/color:#3b455f;
+	/*@editable*/color:$h2;
 	display:block;
 	/*@editable*/font-family:Verdana;
 	/*@editable*/font-size:30px;
