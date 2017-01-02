@@ -1,0 +1,496 @@
+body {
+  width: 100% !important;
+  -webkit-text-size-adjust: none;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  border: none;
+  font-size: 14px;
+  font-weight: bold;
+  height: auto;
+  line-height: 100%;
+  outline: none;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+#backgroundTable {
+  height: 100% !important;
+  margin: 0;
+  padding: 0;
+  width: 100% !important;
+}
+
+/*
+	@tab Page
+	@section background color
+	@tip Set the background color for your email. You may want to choose one that matches your company's branding.
+	@theme page
+	*/
+body, .backgroundTable {
+  /*@editable*/
+  background-color: #f1f1f1;
+}
+
+/*
+@tab Page
+@section email border
+@tip Set the border for your email.
+*/
+#templateContainer {
+  /*@editable*/
+  border: 1px solid #DDDDDD;
+}
+
+/*
+@tab Page
+@section hero heading 1
+@tip Set the style for the boldest, introductory heading that accompanies the email's image.
+*/
+.hero-row td {
+  /*@tab Page
+@section hero heading 1
+@tip Set the style for the boldest, introductory heading that accompanies the email's image.*/
+  padding: 20px;
+  background-color: #3c4660;
+}
+
+.hero-header, .hero-header h1, .hero-header .h1, .hero-header span, .hero-header div {
+  color: #f1f1f1 !important;
+  display: block;
+  font: normal bold 22px/150% Verdana  !important;
+  text-align: left !important;
+}
+
+.hero-header-sub, .hero-header-sub h1, .hero-header-sub .h1, .hero-header-sub span, .hero-header-sub div {
+  font: italic normal 14px/150% Verdana !important;
+  color: #f1f1f1 !important;
+}
+
+*h1, .h1 {
+  /*@editable*/
+  color: #3b455f;
+  display: block;
+  /*@editable*/
+  font-family: Verdana;
+  /*@editable*/
+  font-size: 34px;
+  /*@editable*/
+  font-weight: bold;
+  /*@editable*/
+  line-height: 100%;
+  margin-bottom: 10px;
+  /*@editable*/
+  text-align: left;
+}
+
+/*
+@tab Page
+@section heading 2
+@tip Set the styling for all second-level headings in your emails.
+@theme heading2
+*/
+h2, .h2 {
+  /*@editable*/
+  color: #3b455f;
+  display: block;
+  /*@editable*/
+  font-family: Verdana;
+  /*@editable*/
+  font-size: 30px;
+  /*@editable*/
+  font-weight: bold;
+  /*@editable*/
+  line-height: 100%;
+  margin-bottom: 10px;
+  /*@editable*/
+  text-align: left;
+}
+
+/*
+@tab Page
+@section heading 3
+@tip Set the styling for all third-level headings in your emails.
+@theme heading3
+*/
+h3, .h3 {
+  /*@editable*/
+  color: #3b455f;
+  display: block;
+  /*@editable*/
+  font-family: Verdana;
+  /*@editable*/
+  font-size: 26px;
+  /*@editable*/
+  font-weight: bold;
+  /*@editable*/
+  line-height: 100%;
+  margin-bottom: 10px;
+  /*@editable*/
+  text-align: left;
+}
+
+/*
+@tab Page
+@section heading 4
+@tip Set the styling for all fourth-level headings in your emails. These should be the smallest of your headings.
+@theme heading4
+*/
+h4, .h4 {
+  /*@editable*/
+  color: #3b455f;
+  display: block;
+  /*@editable*/
+  font-family: Verdana;
+  /*@editable*/
+  font-size: 22px;
+  /*@editable*/
+  font-weight: bold;
+  /*@editable*/
+  line-height: 100%;
+  margin-bottom: 10px;
+  /*@editable*/
+  text-align: left;
+}
+
+/*
+@tab Header
+@section preheader style
+@tip Set the background color for your email's preheader area.
+@theme page
+*/
+#templatePreheader {
+  /*@editable*/
+  background-color: #f1f1f1;
+}
+
+/*
+@tab Header
+@section preheader text
+@tip Set the styling for your email's preheader text. Choose a size and color that is easy to read.
+*/
+.header-logo {
+  /*@tab Header
+@section preheader text
+@tip Set the styling for your email's preheader text. Choose a size and color that is easy to read.*/
+  width: 50%;
+}
+
+.preheaderContent div {
+  font: normal normal 10px/100% Verdana !important;
+  text-align: left;
+  color: #627e84;
+}
+
+/*
+@tab Header
+@section preheader link
+@tip Set the styling for your email's preheader links. Choose a color that helps them stand out from your text.
+*/
+.preheaderContent div a:link, .preheaderContent div a:visited {
+  /*@editable*/
+  color: #627e84;
+  /*@editable*/
+  font-weight: normal;
+  /*@editable*/
+  text-decoration: underline;
+}
+
+.preheaderContent div img {
+  height: auto;
+  width: 100%;
+}
+
+/*
+@tab Header
+@section header style
+@tip Set the background color and border for your email's header area.
+@theme header
+*/
+#templateHeader {
+  /*@editable*/
+  background-color: #FFFFFF;
+  /*@editable*/
+  border-bottom: 0;
+}
+
+/*
+@tab Header
+@section header text
+@tip Set the styling for your email's header text. Choose a size and color that is easy to read.
+*/
+.headerContent {
+  /*@editable*/
+  color: #f1f1f1;
+  /*@editable*/
+  font-family: Verdana;
+  /*@editable*/
+  font-size: 34px;
+  /*@editable*/
+  font-weight: bold;
+  /*@editable*/
+  line-height: 100%;
+  /*@editable*/
+  padding: 0;
+  /*@editable*/
+  text-align: center;
+  /*@editable*/
+  vertical-align: middle;
+}
+
+/*
+@tab Header
+@section header link
+@tip Set the styling for your email's header links. Choose a color that helps them stand out from your text.
+*/
+.headerContent a:link, .headerContent a:visited {
+  /*@editable*/
+  color: #336699;
+  /*@editable*/
+  font-weight: normal;
+  /*@editable*/
+  text-decoration: underline;
+}
+
+#headerImage {
+  height: auto;
+  width: 100%;
+}
+
+/*
+@tab Body
+@section body style
+@tip Set the background color for your email's body area.
+*/
+#templateContainer, .bodyContent {
+  /*@tab Body
+@section body style
+@tip Set the background color for your email's body area.*/
+  background-color: #FFFFFF;
+}
+
+/*
+@tab Body
+@section body text
+@tip Set the styling for your email's main content text. Choose a size and color that is easy to read.
+@theme main
+*/
+.bodyContent div, .bodyContent span {
+  /*@tab Body
+@section body text
+@tip Set the styling for your email's main content text. Choose a size and color that is easy to read.
+@theme main*/
+  color: #627e84 !important;
+  text-align: left;
+  font: 14px/1.5 Verdana, serif !important;
+  background-color: #ffffff !important;
+}
+
+/*
+@tab Body
+@section body link
+@tip Set the styling for your email's main content links. Choose a color that helps them stand out from your text.
+*/
+.bodyContent div a:link, .bodyContent div a:visited {
+  /*@tab Body
+@section body link
+@tip Set the styling for your email's main content links. Choose a color that helps them stand out from your text.*/
+  color: #1C4A54 !important;
+  font-weight: normal !important;
+  text-decoration: underline !important;
+  background-color: #ffffff !important;
+  font: 14px/1.5 Verdana, serif !important;
+}
+
+.bodyContent div strong {
+  color: #3b455e !important;
+}
+
+.bodyContent div em {
+  background-color: #ffffff !important;
+  color: #627e84 !important;
+}
+
+.bodyContent img {
+  display: inline;
+  margin-bottom: 10px;
+}
+
+/*
+@tab Footer
+@section footer style
+@tip Set the background color and top border for your email's footer area.
+@theme footer
+*/
+#templateFooter {
+  /*@editable*/
+  background-color: #FDFDFD;
+  /*@editable*/
+  border-top: 0;
+}
+
+/*
+@tab Footer
+@section footer text
+@tip Set the styling for your email's footer text. Choose a size and color that is easy to read.
+@theme footer
+*/
+.footerContent div {
+  /*@editable*/
+  color: #707070;
+  /*@editable*/
+  font-family: Arial;
+  /*@editable*/
+  font-size: 12px;
+  /*@editable*/
+  line-height: 125%;
+  /*@editable*/
+  text-align: left;
+}
+
+/*
+@tab Footer
+@section footer link
+@tip Set the styling for your email's footer links. Choose a color that helps them stand out from your text.
+*/
+tr.info {
+  /*@tab Footer
+@section footer link
+@tip Set the styling for your email's footer links. Choose a color that helps them stand out from your text.*/
+  display: block;
+  padding: 20px 60px;
+}
+
+.info p, p.media-query {
+  color: #8b9a9e;
+  display: block;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: italic;
+  line-height: 150%;
+}
+
+.info a, p.media-query a {
+  color: #3c4660;
+  text-decoration: none;
+}
+
+.info a:hover {
+  text-decoration: underline;
+}
+
+.info img {
+  width: 50px;
+}
+
+tr.website {
+  background-color: #adcd00;
+}
+
+tr.website p {
+  color: #FFFFFF;
+}
+
+tr.phone {
+  background-color: #f1f2f4;
+}
+
+tr.email {
+  background-color: #ffffff;
+}
+
+p.media-query {
+  width: 75%;
+  margin-top: 0;
+  margin-right: 60px;
+}
+
+.footerContent div a:link, .footerContent div a:visited {
+  /*@editable*/
+  color: #336699;
+  /*@editable*/
+  font-weight: normal;
+  /*@editable*/
+  text-decoration: underline;
+}
+
+.footerContent img {
+  display: inline;
+}
+
+.fine-print {
+  display: block;
+  padding: 20px 40px;
+}
+
+.fine-print p {
+  color: white;
+  display: block;
+  font-family: Verdana;
+  font-size: 10px;
+  font-weight: normal;
+  font-style: italic;
+  line-height: 150%;
+}
+
+.fine-print a {
+  color: #adcd00;
+  text-decoration: none;
+}
+
+/*
+@tab Footer
+@section utility bar style
+@tip Set the background color and border for your email's footer utility bar.
+*/
+.social-footer {
+  /*@tab Footer
+@section utility bar style
+@tip Set the background color and border for your email's footer utility bar.*/
+  width: 100%;
+  max-with: 600px;
+  margin: 10px auto;
+}
+
+.social-footer a, .social-footer td {
+  font: normal normal 10px/100% Verdana !important;
+  color: #627e84;
+}
+
+#monkeyRewards img {
+  max-width: 160px;
+}
+
+td.footer-image {
+  padding: 0;
+}
+
+tr.fine-print {
+  background-color: #3b4561;
+}
+
+table.social-icons {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+table.social-icons tbody, table.social-icons tr {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+table.social-icons td {
+  width: 40px;
+  display: inline-block;
+  margin: 10px 5px 50px;
+}
+
+table.social-icons td img {
+  height: auto;
+  width: 100%;
+}

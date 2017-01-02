@@ -1,0 +1,215 @@
+@import 'partials/fonts';
+@import 'partials/colors';
+@import 'partials/responsive';
+@import 'partials/outlook';
+@import 'partials/socialicons';
+
+body{
+	width:100% !important;
+	-webkit-text-size-adjust:none;
+	margin:0;
+	padding:0;
+}
+img{
+	border:none;
+	font-size:14px;
+	font-weight:bold;
+	height:auto;
+	line-height:100%;
+	outline:none;
+	text-decoration:none;
+	text-transform:capitalize;
+}
+#backgroundTable{
+	height:100% !important;
+	margin:0;
+	padding:0;
+	width:100% !important;
+}
+/*
+	@tab Page
+	@section background color
+	@tip Set the background color for your email. You may want to choose one that matches your company's branding.
+	@theme page
+	*/
+body,.backgroundTable{
+	/*@editable*/background-color:#f1f1f1;
+}
+/*
+@tab Page
+@section email border
+@tip Set the border for your email.
+*/
+#templateContainer{
+	/*@editable*/ border:1px solid #DDDDDD;
+}
+/*
+@tab Header
+@section preheader style
+@tip Set the background color for your email's preheader area.
+@theme page
+*/
+#templatePreheader{
+	/*@editable*/background-color:#f1f1f1;
+}
+/*
+@tab Header
+@section preheader text
+@tip Set the styling for your email's preheader text. Choose a size and color that is easy to read.
+*/
+.header-logo{
+	/*@tab Header
+@section preheader text
+@tip Set the styling for your email's preheader text. Choose a size and color that is easy to read.*/width:50%;
+}
+.preheaderContent div img{
+	height:auto;
+	width:100%;
+}
+/*
+@tab Header
+@section header style
+@tip Set the background color and border for your email's header area.
+@theme header
+*/
+#templateHeader{
+	/*@editable*/background-color:#FFFFFF;
+	/*@editable*/border-bottom:0;
+}
+/*
+@tab Header
+@section header text
+@tip Set the styling for your email's header text. Choose a size and color that is easy to read.
+*/
+.headerContent{
+	/*@editable*/padding:0;
+	/*@editable*/vertical-align:middle;
+}
+/*
+@tab Header
+@section header link
+@tip Set the styling for your email's header links. Choose a color that helps them stand out from your text.
+*/
+#headerImage{
+	height:auto;
+	width:100%;
+}
+/*
+@tab Body
+@section body style
+@tip Set the background color for your email's body area.
+*/
+#templateContainer,.bodyContent{
+	/*@tab Body
+@section body style
+@tip Set the background color for your email's body area.*/background-color:#FFFFFF;
+}
+/*
+@tab Body
+@section body text
+@tip Set the styling for your email's main content text. Choose a size and color that is easy to read.
+@theme main
+*/
+.bodyContent div,.bodyContent span{
+	background-color:#ffffff !important;
+}
+/*
+@tab Body
+@section body link
+@tip Set the styling for your email's main content links. Choose a color that helps them stand out from your text.
+*/
+.bodyContent div a:link,.bodyContent div a:visited{
+	/*@tab Body
+@section body link
+@tip Set the styling for your email's main content links. Choose a color that helps them stand out from your text.*/	
+	background-color:#ffffff !important;
+}
+.bodyContent div em{
+	background-color:#ffffff !important;
+}
+.bodyContent img{
+	display:inline;
+	margin-bottom:10px;
+}
+/*
+@tab Footer
+@section footer style
+@tip Set the background color and top border for your email's footer area.
+@theme footer
+*/
+#templateFooter{
+	/*@editable*/background-color:#FDFDFD;
+	/*@editable*/border-top:0;
+}
+/*
+@tab Footer
+@section footer text
+@tip Set the styling for your email's footer text. Choose a size and color that is easy to read.
+@theme footer
+*/
+.footerContent div{
+
+}
+/*
+@tab Footer
+@section footer link
+@tip Set the styling for your email's footer links. Choose a color that helps them stand out from your text.
+*/
+tr.info{
+	/*@tab Footer
+@section footer link
+@tip Set the styling for your email's footer links. Choose a color that helps them stand out from your text.*/	
+	display:block;
+	padding:20px 60px;
+}
+.info p,p.media-query{
+	display:block;
+}
+.info img{
+	width:50px;
+}
+tr.website{
+	background-color:#adcd00;
+}
+tr.phone{
+	background-color:#f1f2f4;
+}
+tr.email{
+	background-color:#ffffff;
+}
+p.media-query{
+	width:75%;
+	margin-top:0;
+	margin-right:60px;
+}
+.footerContent img{
+	display:inline;
+}
+.fine-print{
+	display:block;
+	padding:20px 40px;
+}
+.fine-print p{
+	display:block;
+}
+/*
+@tab Footer
+@section utility bar style
+@tip Set the background color and border for your email's footer utility bar.
+*/
+.social-footer{
+	/*@tab Footer
+@section utility bar style
+@tip Set the background color and border for your email's footer utility bar.*/width:100%;
+	max-with:600px;
+	margin:10px auto;
+}
+#monkeyRewards img{
+	max-width:160px;
+}
+td.footer-image{
+	padding:0;
+}
+tr.fine-print{
+	background-color:#3b4561;
+}
